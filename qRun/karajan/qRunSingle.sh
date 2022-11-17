@@ -44,6 +44,6 @@ cp $macroPath/*.mac .
 $execPath run.mac > log.info
 
 # move the stuff to new path
-mkdir -r /mnt/data2/$specificLocalOut
+mkdir -p /mnt/data2/$specificLocalOut
 mv *.root /mnt/data2/$specificLocalOut/
 mv log.info /mnt/data2/$specificLocalOut/
